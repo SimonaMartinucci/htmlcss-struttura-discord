@@ -70,9 +70,10 @@ header section {
 
 /* regole corpo centrale */
 .white {
+    background-color: white;
     display: flex;
+    justify-content: center;
     /* DEBUG */
-    background-color: orange;
     min-height: 300px;
     padding: 25px 0;
 }
@@ -80,8 +81,15 @@ header section {
 .blue {
     width: 30%;
     height: 250px;
-    margin: 0 auto;
     /* DEBUG */
     background-color: rgb(30, 144, 255);
+    border: 2px dotted black;
+}
+
+.pink {
+    width: 15%;
+    height: 250px;
+    /* DEBUG */
+    background-color: rgb(255, 192, 203);
     border: 2px dotted black;
 }
