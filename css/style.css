@@ -137,6 +137,14 @@ header section {
 #red-footer {
     width: 20%;
     height: 320px;
+    /* DEBUG */
     background-color: rgb(240, 128, 128);
     border: 2px dotted black;
+}
+
+.col-footer {
+    width: calc(25% / 4);
+    height: 320px;
+    background-color: rgb(32, 178, 170);
+    border: 2px dotted white;
 }
