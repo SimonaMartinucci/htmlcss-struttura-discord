@@ -121,7 +121,7 @@ header section {
 }
 
 /* regole footer */
-.footer-menu {
+#footer-menu {
     background-color: rgb(35, 39, 42);
     height: 350px;
     border-bottom: 1px solid white;
@@ -147,4 +147,27 @@ header section {
     height: 320px;
     background-color: rgb(32, 178, 170);
     border: 2px dotted white;
+}
+
+#footer-logo {
+    background-color: rgb(35, 39, 42);
+    height: 50px;
+    padding-top: 15px;
+}
+
+#green-footer {
+    width: 45%;
+    height: 35px;
+    background-color: rgb(127, 255, 212);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    font-size: 12px;
+    background-color: rgb(255, 189, 200);
+    padding: 2px 5px;
+    border: 1px dotted black;
 }
