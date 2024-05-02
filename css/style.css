@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* regole menu navigazione header */
 header nav {
     background-color: rgb(173, 216, 230);
@@ -21,17 +26,26 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 4px;
     /* DEBUG */
     background-color: rgb(218, 165, 32);
     border: 2px dotted black;
 }
 
-.link-centrali {
+#container-nav ul {
     width: 60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     /* DEBUG */
     border-right: 2px dotted black;
     border-left: 2px dotted black;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#container-nav li {
+    margin: 4px;
 }
