@@ -103,3 +103,19 @@ header section {
     min-height: 300px;
     padding: 25px 0;
 }
+
+.final-grey {
+    background-color: rgb(211, 211, 211);
+    /* DEBUG */
+    min-height: 500px;
+    padding: 25px 0;
+}
+
+.green {
+    width: 45%;
+    height: 450px;
+    /* DEBUG */
+    background-color: rgb(34, 139, 34);
+    border: 2px dotted black;
+    margin: 0 auto;
+}
