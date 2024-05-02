@@ -119,3 +119,24 @@ header section {
     border: 2px dotted black;
     margin: 0 auto;
 }
+
+/* regole footer */
+.footer-menu {
+    background-color: rgb(35, 39, 42);
+    height: 350px;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#table-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#red-footer {
+    width: 20%;
+    height: 320px;
+    background-color: rgb(240, 128, 128);
+    border: 2px dotted black;
+}
