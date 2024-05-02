@@ -50,3 +50,20 @@ nav ul {
 #container-nav li {
     margin: 4px;
 }
+
+/* regole sezione header */
+header section {
+    background-color: rgb(0, 0, 139);
+    min-height: 300px;
+    padding: 25px 0;
+    border-bottom: 2px solid rgb(173, 216, 230);
+}
+
+#container-logo {
+    width: 40%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: rgb(238, 130, 238);
+    height: 250px;
+    border: 2px dotted black;
+}
