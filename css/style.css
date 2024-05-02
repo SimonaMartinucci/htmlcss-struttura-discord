@@ -32,6 +32,7 @@ header nav {
     border: 2px dotted black;
 }
 
+/* regole link centrali header */
 #container-nav ul {
     width: 60%;
     display: flex;
